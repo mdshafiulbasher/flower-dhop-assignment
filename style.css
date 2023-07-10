@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "lato", sans-serif;
+}
+/* header related style */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 850px;
+    background-image: url('Flower-Asset/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-title{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 20px;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 20px;
+}
+.btn{
+    background-color: #E55473;
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+border: none;
+border-radius: 8px;
+padding: 20px;
+}
+.header-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+.banner-container{
+    text-align: left;
+    /* align-items: center; */
+    padding: 240px;
+    width: 45%;   
+}
+/* feature related style */
+.feature-container{
+    padding: 130px 150px;
+}
+.title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.feature-description{
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+.image-1{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+background-image: url('Flower-Asset/pngwing 6.png');
+    background-position: bottom; 
+    background-repeat: no-repeat;
+width: 400px;
+height: 530px;
+}
+.image-2{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(5, 151, 160, 0.15);
+background-image: url('Flower-Asset/pngwing 5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+width: 400px;
+height: 530px;
+}
+.image-3{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(71, 125, 17, 0.15);
+background-image: url('Flower-Asset/pngwing 7.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+width: 400px;
+height: 530px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-around;
+padding-top: 80px;
+}
+.img-name{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.img-name h6{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
