@@ -3,7 +3,7 @@
     padding: 0px;
     font-family: "lato", sans-serif;
 }
-/* header related style */
+/* header related style start */
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     width: 100%;
@@ -44,13 +44,13 @@ padding: 20px;
 }
 .banner-container{
     text-align: left;
-    /* align-items: center; */
-    padding: 240px;
+    padding: 130px 200px;
     width: 45%;   
 }
-/* feature related style */
+/* header related style start */
+/* feature related style start */
 .feature-container{
-    padding: 130px 150px;
+    padding: 130px 200px 80px 200px;
 }
 .title{
 color: #272727;
@@ -94,6 +94,7 @@ height: 530px;
     display: flex;
     justify-content: space-around;
 padding-top: 80px;
+gap: 20px;
 }
 .img-name{
     display: flex;
@@ -107,3 +108,27 @@ font-size: 24px;
 font-weight: 700;
 text-decoration-line: underline;
 }
+/* feature related style end */
+/* service related style start */
+.service{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.service-container{
+    padding-top: 50px;
+}
+.description-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px ;
+    gap: 40px;
+}
+.service-info{
+    text-align: left;
+}
+.info-title{
+    color: #3b3b3b;
+    font-size: 32px;
+    font-weight: 600px;
+    padding-bottom: 15px;
+}
+/* service related style end */
